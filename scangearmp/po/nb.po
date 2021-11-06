@@ -1,0 +1,928 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:36+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "Fjern forhåndsvist bilde"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "Om"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "Velg kilde"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "Vis forhåndsvisningsbilde"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "Mål"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "Utskriftsstørrelse"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "Juster beskjæringsrammer"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "Utfør skanning"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "Skann"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "Grunnleggende-modus"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "Velg kilde:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "Fargemodus:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "Bredde:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "Høyde:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "Papirstørrelse:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "Plassering av innbinding:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "Innmatingsinnstillinger"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "ppt"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "Utskriftsoppløsning:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "Utskriftsstørrelse:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "Datastørrelse:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "Utskriftsinnstillinger"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "Uskarphetsmaske:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "Derastrer:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "Bildeinnstillinger"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "Lysstyrke/kontrast"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "Histogram"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "Tonekurveinnstillinger"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "Endelig kontroll"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "Terskel"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "Standarder"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "Avansert-modus"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "Innstillinger..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "Lukk"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "Innstillinger"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "Stillemodus"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "Kalibreringsinnstillinger"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "Utfør ved hver skanning:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "Skanner"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "Anbefales"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "Ingen"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "Skjermgamma:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "Fargeinnstillinger"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "OK"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "Velg skanner"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "Ingen skannere oppdaget."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "Oppdater skannerliste"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "Lagre skannet bilde"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "Lagre som type:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "Lagre"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Samme filnavn finnes allerede.\n"
+"Er du sikker på at du vil overskrive det?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "Kanal:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "Lysstyrke:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "Lys"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "Kontrast:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "Lav"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "Høy"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "Gråbalanse:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "Velg tonekurve:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "Ingen korrigering"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "Overeksponering"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "Undereksponering"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "Høy kontrast"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "Opprinnelig"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "Gjeldende"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "Terskelnivå:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "Lys"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "Mørk"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "Skanner..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "Foto (farger)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "Magasin (farger)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "Avis (S/H)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "Dokument (gråtoner)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "Avis (gråtoner)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "Dokument(farger) ADM, enkeltsidig"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "Dokument(gråtoner) ADM, enkeltsidig"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "Dokument(farger) ADM, dobbeltsidig"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "Dokument(gråtoner) ADM, dobbeltsidig"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "Skriv ut (300 ppt)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "Bildevisning (150 ppt)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR (300 ppt)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "Skriv ut"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "Bildevisning"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "Fleksibel"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Kort"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L liggende"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L stående"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L liggende"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L stående"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm liggende"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm stående"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 piksler"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 piksler"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 piksler"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 piksler"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 piksler"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 piksler"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 piksler"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 piksler"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 piksler"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "Hel plate"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "Plate"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "Dokument (ADM, enkeltsidig)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "Dokument (ADM, dobbeltsidig)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "Langside"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "Kortside"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "Farge"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "Farge (dokumenter)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "Gråtoner"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "Svart-hvitt"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "piksler"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "tommer"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "centimeter"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "PÅ"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "AV"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "Hoved"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "Rød"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "Grønn"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "Blå"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "Gråtoner"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "Filnavn ikke angitt."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"Du har ikke tillatelse til å åpne angitt fil.\n"
+"Angi et annet filnavn eller lagre filen i en annen katalog."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"Angitt katalog finnes ikke eller du har ikke tillatelse til å åpne katalogen.\n"
+"Lagre filen i en annen katalog."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"Angitt filnavn er ugyldig.\n"
+"Angi et annet filnavn."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "Ikke vis denne meldingen flere ganger."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "Tilbakestiller innstillingene til standardinnstillinger."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"Du forsøker å skanne et bilde som overskrider 100 MB. Skanning av bilder med \n"
+"denne størrelsen er en stor belastning for datamaskinen, og det kan hende at \n"
+"noen programmer ikke kan laste inn bildet. \n"
+"Er du sikker på at du vil fortsette?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Skanning kan ikke utføres med mindre beskjæringsstørrelsen, \n"
+"utskriftsstørrelsen eller utskriftsoppløsningen reduseres til \n"
+"%sx%s piksler eller mindre."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr "Hvis du beholder Uskarphetsmasken PÅ, kan det hende at Derastrer ikke fungerer."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"ADM (den automatiske dokumentmateren) er tom. \n"
+"Legg papir i den automatiske dokumentmateren."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Kan ikke finne tilgjengelige skannere.\n"
+"\n"
+"Det kan hende at kabelen ikke er koblet til, eller skanneren kan være slått av.\n"
+"Kontroller skannerstatus og prøv på nytt."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"Du forsøker å skanne et stort bilde.\n"
+"Reduser bildestørrelsen eller utskriftsoppløsningen\n"
+"når du vil skanne dette bildet."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "Lagrer..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "Overfører..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d side(r)"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "Søker..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "Søker etter skannere."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "Oppdaterer skannerlisten."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "Skanningen avbrutt av bruker."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "Kopierer...  Skann når kalibreringen er ferdig."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "Skriver ut...  Skann når kalibreringen er ferdig."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Skrivervedlikehold pågår. Skann når kalibreringen er ferdig."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Får ikke kontakt med skanneren.\n"
+"Det kan hende at kabelen ikke er koblet til, eller skanneren kan være slått av. \n"
+"Kontroller status.\n"
+"Skannerdriveren lukkes."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Ikke nok ledig diskplass for å fullføre skanningen.\n"
+"Skannerdriveren lukkes."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Det har oppstått en intern feil.\n"
+"Skannerdriveren lukkes."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Feil i skanner.\n"
+"Slå av skanneren og følg instruksjonene i håndboken.\n"
+"Skannerdriveren lukkes."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"Skriveren er i bruk eller det har oppstått en feil. Kontroller status.\n"
+"Skannerdrivereren lukkes."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "Skriverinitialisering pågår. Skann når initialiseringen er ferdig."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Det har oppstått en feil.\n"
+"Slå enheten av og deretter på igjen.\n"
+"Skannerdriveren lukkes."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Skanningen avbrutt av bruker. \n"
+"Trykk på <OK> på skriverens betjeningspanel for å fjerne dokumentet fra ADM \n"
+"(den automatiske dokumentmateren)."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"Papir sitter fast i ADM (den automatiske dokumentmateren). \n"
+"Åpne dekselet og fjern det fastkjørte papiret, og lukk deretter dekselet på \n"
+"dokumentmateren.\n"
+"Trykk på <OK> for å nullstille statusen på skriverens betjeningspanel."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"Dekselet på ADM (den automatiske dokumentmateren) er åpent. \n"
+"Lukk dekselet og trykk på <OK> for å nullstille statusen på skriverens \n"
+"betjeningspanel."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"Ikke noe dokument i ADM (den automatiske dokumentmateren). \n"
+"Trykk på <OK> på skriverens betjeningspanel for å avbryte feilen, \n"
+"og legg deretter papir i ADM."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Dokumentet er for langt.\n"
+"Kontroller at dekselet på ADM (den automatiske dokumentmateren) er lukket, \n"
+"og trykk  på <OK> på skriverens betjeningspanel for å fjerne dokumentet fra "
+"ADM."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Papirstørrelsen er ikke egnet til dupleksskanning. \n"
+"Kontroller at dekselet på ADM (den automatiske dokumentmateren) er lukket, \n"
+"og trykk på <OK> på skriverens betjeningspanel for å fjerne dokumentet fra ADM."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Får ikke kontakt med skanneren av følgende årsaker:\n"
+"- Skanneren er slått av.\n"
+"- Skanneren er ikke koblet til.\n"
+"(Den er koblet fra LAN hvis den brukes på LAN.)\n"
+"\n"
+"Kontroller og prøv på nytt.\n"
+"Skannerdriveren lukkes."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Kan ikke kommunisere med skanneren av følgende årsaker:\n"
+"- Skanneren er slått av.\n"
+"- Låsbryteren er ikke frigjort.\n"
+"- Skanneren er koblet fra.\n"
+"(Den er koblet fra LAN, hvis den brukes på LAN.)\n"
+"\n"
+"Kontroller og prøv på nytt.\n"
+"Skannerdriveren lukkes."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Frigjør låsbryteren, slå enheten av og deretter på igjen.\n"
+"Skannerdriveren lukkes."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"Behandler kalibreringsdata fra en skanner.\n"
+"Ikke åpne dokumentdekselet."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Skanneren varmer opp...\n"
+"Ikke åpne dokumentdekselet."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "Slett forhåndsvisningsbilder."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "Velg kilde er endret, og forhåndsvisningsbildet slettes."

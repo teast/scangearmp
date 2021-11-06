@@ -1,0 +1,931 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:31+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "Vymazat náhled"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "O aplikaci"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "Vybrat zdroj"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "Zobrazit obraz v náhledu"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "Náhled"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "Cílové umístění"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "Výstupní velikost"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "Upravit rámce pro oříznutí"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "Provést skenování"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "Skenovat"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "Základní režim"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "Vybrat zdroj:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "Barevný režim:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "Šířka:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "Výška:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "Velikost papíru:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "Umístění vazby:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "Nastavení vstupu"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "Výstupní rozlišení:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "Výstupní velikost:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "Velikost dat:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "Nastavení výstupu"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "Zaostřit s maskou:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "Funkce Descreen:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "Nastavení obrazu"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "Jas a kontrast"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "Histogram"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "Nastavení tónové křivky"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "Závěrečný náhled"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "Prahová hodnota"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "Výchozí"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "Rozšíř. režim"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "Předvolby..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "Zavřít"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "Předvolby"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "Tichý režim"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "Nastavení kalibrace"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "Provést při každém skenování:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "Skener"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "Doporučeno"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "Žádné"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "Hodnota Gamma monitoru:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "Nastavení barev"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "OK"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "Storno"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "Vybrat skener"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "Nebyly zjištěny žádné skenery."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "Aktualizovat seznam skenerů"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "Uložit naskenovaný obraz"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "Uložit jako typ:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "Uložit"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Soubor se stejným názvem již existuje.\n"
+"Opravdu jej chcete přepsat?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "Kanál:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "Jas:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "Tmavý"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "Jasný"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "Kontrast:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "Nízký"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "Vysoký"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "Vyvážení šedé:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "Vybrat tónovou křivku:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "Bez opravy"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "Přeexponováno"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "Podexponováno"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "Vysoký kontrast"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "Originál"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "Aktuální"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "Úroveň prahové hodnoty:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "Světlý"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "Tmavý"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "Probíhá skenování..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "Fotografie (barevná)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "Časopis (barevný)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "Noviny (čb)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "Dokument (stupně šedi)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "Noviny (stupně šedi)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "Dokum. (barev.) z APD, jednostr."
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "Dokum. (st. šedi) z APD, jednostr."
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "Dokum. (barev.) z APD, oboustr."
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "Dokum. (st. šedi) z APD, oboustr."
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "Tisk (300 dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "Zobrazení obrazu (150 dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR (300 dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "Tisk"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "Zobrazení obrazu"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "Proměnlivá"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Karta"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L na šířku"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L na výšku"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L na šířku"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L na výšku"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm na šířku"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm na výšku"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 pixelů"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 pixelů"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 pixelů"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 pixelů"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 pixelů"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 pixelů"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 pixelů"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 pixelů"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 pixelů"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "Celé sklo"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "Sklo"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "Dokument (APD, jednostranně)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "Dokument (APD, oboustranně)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "Dlouhá hrana"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "Krátká hrana"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "Barevně"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "Barevně (dokumenty)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "Stupně šedi"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "Černobíle"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "pixely"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "palce"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "cm"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "ZAPNUTO"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "VYPNUTO"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "Vzor"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "Červená"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "Zelená"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "Modrá"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "Stupně šedi"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "Nebyl zadán název souboru."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"Nemáte oprávnění pro přístup k zadanému souboru.\n"
+"Zadejte jiný název souboru nebo soubor uložte do jiného adresáře."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"Zadaný adresář neexistuje nebo nemáte oprávnění pro přístup k němu.\n"
+"Uložte soubor do jiného adresáře."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"Zadaný název souboru není platný.\n"
+"Zadejte jiný název souboru."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "Tuto zprávu již znovu nezobrazovat."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "Obnoví výchozí nastavení."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"Pokoušíte se naskenovat obraz větší než 100 MB. Skenováním obrazů této \n"
+"velikosti dochází ke značnému zatížení počítače a v některých aplikacích nebude \n"
+"možné obraz načíst. \n"
+"Opravdu chcete pokračovat?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Skenování nelze provést, dokud nebude nastavení velikosti oříznutí, výstupní \n"
+"velikosti \n"
+"nebo výstupního rozlišení zmenšeno na hodnotu \n"
+"%s x %s pixelů nebo menší."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr ""
+"Pokud zapnete funkci Zaostřit s maskou, nebude funkce Descreen pravděpodobně \n"
+"fungovat."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"Podavač ADF (automatický podavač dokumentů) je prázdný. \n"
+"Vložte papír do podavače ADF."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Nelze nalézt dostupné skenery.\n"
+"\n"
+"Pravděpodobně je odpojen kabel nebo vypnut skener. \n"
+"Zkontrolujte stav skeneru a opakujte akci."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"Pokoušíte se naskenovat velký obraz.\n"
+"Chcete-li tento obraz naskenovat, zmenšete jeho\n"
+"velikost nebo výstupní rozlišení."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "Ukládá se..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "Přenáší se..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d stránek"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "Vyhledávání..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "Vyhledávání skenerů."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "Probíhá aktualizace seznamu skenerů."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "Skenování bylo zrušeno uživatelem."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "Probíhá kopírování... Počkejte na dokončení, až potom proveďte skenování."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "Probíhá tisk... Počkejte na dokončení, až potom proveďte skenování."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Probíhá údržba tiskárny. Počkejte na dokončení, až potom proveďte skenování."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Nelze komunikovat se skenerem.\n"
+"Pravděpodobně je odpojen kabel nebo vypnut skener. \n"
+"Zkontrolujte stav.\n"
+"Ovladač skeneru bude ukončen."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Na disku není dostatek volného místa k dokončení skenování.\n"
+"Ovladač skeneru bude ukončen."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Došlo ke vnitřní chybě.\n"
+"Ovladač skeneru bude ukončen."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Chyba skeneru.\n"
+"Vypněte skener a postupujte podle pokynů v příručce.\n"
+"Ovladač skeneru bude ukončen."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"Tiskárna je používána nebo došlo k chybě. Zkontrolujte stav.\n"
+"Ovladač skeneru bude ukončen."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "Probíhá inicializace tiskárny. Skenování zahajte až po dokončení inicializace."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Došlo k chybě.\n"
+"Vypněte a znovu zapněte zařízení.\n"
+"Ovladač skeneru bude ukončen."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Skenování bylo zrušeno uživatelem. \n"
+"Stisknutím tlačítka <OK> na ovládacím panelu tiskárny vysunete dokument z \n"
+"podavače ADF (automatický podavač dokumentů)."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"V podavači ADF (automatický podavač dokumentů) uvízl papír. \n"
+"Otevřete kryt a odstraňte uvíznutý papír a potom zavřete kryt dokumentů.\n"
+"Stisknutím tlačítka <OK> vymažte stav zobrazený na ovládacím panelu tiskárny."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"Je otevřen kryt podavače ADF (automatický podavač dokumentů). \n"
+"Zavřete kryt dokumentů a pak stisknutím tlačítka <OK> vymažte stav zobrazený na \n"
+"ovládacím panelu tiskárny."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"V podavači ADF (automatický podavač dokumentů) není vložen dokument. \n"
+"Stisknutím tlačítka <OK> na ovládacím panelu tiskárny zrušte chybu a pak vložte \n"
+"papír do podavače ADF."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Dokument je příliš dlouhý.\n"
+"Ověřte, zda je kryt podavače ADF (automatický podavač dokumentů) zavřený, \n"
+"a stisknutím tlačítka <OK> na ovládacím panelu tiskárny vysunete dokument z \n"
+"podavače ADF."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Velikost papíru není vhodná pro oboustranné skenování. \n"
+"Ověřte, zda je kryt podavače ADF (automatický podavač dokumentů) zavřený, \n"
+"a stisknutím tlačítka <OK> na ovládacím panelu tiskárny vysunete dokument z \n"
+"podavače ADF."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Se skenerem nelze komunikovat z následujících příčin:\n"
+"- Skener je vypnutý.\n"
+"- Skener je odpojený.\n"
+"(Pokud je používán v síti LAN, je odpojený od této sítě.)\n"
+"\n"
+"Proveďte kontrolu a opakujte akci.\n"
+"Ovladač skeneru bude ukončen."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Nelze komunikovat se skenerem z těchto důvodů:\n"
+"- Skener je vypnutý.\n"
+"- Přepínač zámku není uvolněný.\n"
+"- Skener je odpojený.\n"
+"(Pokud je skener používaný v síti LAN, je odpojený od sítě.)\n"
+"\n"
+"Zkontrolujte připojení a opakujte akci.\n"
+"Ovladač skeneru bude ukončen."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Uvolněte přepínač zámku, vypněte zařízení a znovu ho zapněte.\n"
+"Ovladač skeneru bude ukončen."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"Probíhá zpracování kalibračních dat skeneru.\n"
+"Neotevírejte kryt dokumentů."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Skener se zahřívá...\n"
+"Neotevírejte kryt dokumentů."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "Odstraňte obrazy z náhledu."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "Nastavení Vybrat zdroj bylo změněno, proto bude obraz z náhledu odstraněn."

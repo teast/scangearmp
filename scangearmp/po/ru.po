@@ -1,0 +1,935 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:37+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "Очистить просмотр"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "О программе"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "Выбор источника"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "Предв. просмотр изображений"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "Просмотр"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "Место назначения"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "Формат вывода"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "Настройка рамок обрезки"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "Выполнение сканирования"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "Сканировать"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "Основной режим"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "Выбор источника:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "Режим цветн.:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "Ширина:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "Высота:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "Разм. бумаги:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "Расположение переплета:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "Настройка ввода"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "Разрешение вывода:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "Формат вывода:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "Размер данных:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "Настройки вывода"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "Скрыть нечеткость:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "Убрать растр:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "Параметры изображения"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "Яркость/Контрастность"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "Гистограмма"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "Настройки кривой тона"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "Окончательный просмотр"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "Порог"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "По умолч."
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "Расш. режим"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "Настройка..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "Настройка"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "Бесшумный режим"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "Настройки калибровки"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "Выполнение при каждом сканировании:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "Сканер"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "Рекомендуемые"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "Нет"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "Гамма монитора:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "Параметры цвета"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "ОК"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "Выбрать сканер"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "Сканер не обнаружен."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "Обновить список сканеров"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "Сохранить сканированное изображение"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "Тип файла:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Файл с таким именем уже существует.\n"
+"Перезаписать?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "Канал:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "Яркость:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "Темный"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "Яркая."
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "Контрастность:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "Низкая"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "Высокая"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "Баланс серого:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "Выбор кривой тона:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "Без коррекции"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "Передержка"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "Недодержка"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "Высокий контраст"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "Оригинал"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "Текущие"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "Пороговый уровень:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "Светлый"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "Темный"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "Идет сканирование..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "Фото(Цветной)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "Журнал(Цветной)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "Газета(Ч&Б)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "Документ (оттенки серого)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "Газета (оттенки серого)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "Документ (цветной) УАП одностороннее"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "Документ (оттенки серого) УАП одностороннее"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "Документ (цветной) УАП двухстороннее"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "Документ (оттенки серого) УАП двухстороннее"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "Печать(300 dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "Просмотр изображения(150 dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "Печать"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "Отображение изображения"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "Настраиваемый"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Карточка"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L альбомная"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L книжная"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L альбомная"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L книжная"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm альбомная"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm книжная"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 пикселов"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 пикселов"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 пикселов"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 пикселов"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 пикселов"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 пикселов"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 пикселов"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 пикселов"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 пикселов"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "Весь планшет"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "Рабочая поверхность"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "Документ (УАП одностороннее)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "Документ (УАП двухстороннее)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "Длинный край"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "Короткий край"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "Цветное"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "Цвет(документы)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "Оттенки серого"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "Черно-белое"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "пикселов"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "дюймов"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "см"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "ВКЛ."
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "ВЫКЛ."
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "Общий"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "Красный"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "Зеленый"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "Синий"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "Оттенки серого"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "Не указано имя файла."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"У Вас нет разрешения для доступа к указанному файлу.\n"
+"Задайте другое имя файла или сохраните файл в другом каталоге."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"Указанный каталог не существует, или у Вас нет разрешения для доступа к \n"
+"каталогу.\n"
+"Сохраните файл в другом каталоге."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"Указано неверное имя файла.\n"
+"Задайте другое имя файла."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "Больше не выводить это сообщение."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "Возврат к значениям по умолчанию."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"Вы пытаетесь сканировать изображение, размер которого превышает 100 Мбайт. \n"
+"Сканирование таких изображений оказывает существенную нагрузку на компьютер, а \n"
+"некоторые прикладные программы не смогут открыть изображение такого размера. \n"
+"Продолжить?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Сканирование не может быть произведено, если формат обрезания,  \n"
+"формат вывода или разрешение вывода не уменьшить до \n"
+"%sx%s пикселов или меньше."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr ""
+"Если не выключить параметр Нерезкая маска, параметр Удаление фона может не \n"
+"работать."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"УАП (устройство автоматической подачи) пусто. \n"
+"Поместите в него бумагу."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Сканер не обнаружен.\n"
+"\n"
+"Возможно, отключен кабель или сканер выключен. \n"
+"Проверьте состояние сканера и повторите попытку."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"Вы пытаетесь сканировать большое изображение.\n"
+"Уменьшите размер изображения или разрешение вывода при сканировании\n"
+"этого изображения."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "Идет сохранение..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "Идет передача..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d стр."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "Поиск..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "Поиск сканеров."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "Обновление списка сканеров."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "Сканирование отменено."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "Идет копирование...  После этого сканирование будет завершено."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "Идет печать...  После этого сканирование будет завершено."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Выполняется обслуживание принтера. После этого сканирование будет завершено."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Не удалось установить связь со сканером.\n"
+"Возможно, отключен кабель или сканер выключен. \n"
+"Проверьте состояние.\n"
+"Драйвер сканера будет закрыт."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Недостаточно свободного места на диске для завершения сканирования.\n"
+"Драйвер сканера будет закрыт."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Произошла внутренняя ошибка.\n"
+"Драйвер сканера будет закрыт."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Ошибка сканера.\n"
+"Выключите сканер и следуйте инструкциям руководства по эксплуатации.\n"
+"Драйвер сканера будет закрыт."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"Принтер занят или произошла ошибка. Проверьте состояние.\n"
+"Драйвер сканера будет закрыт."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "Выполняется инициализация принтера. Сканируйте после завершения этой операции."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Произошла ошибка.\n"
+"Выключите, а затем снова включите питание устройства.\n"
+"Драйвер сканера будет закрыт."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Сканирование отменено пользователем. \n"
+"Нажмите кнопку <ОК> на панели управления принтера, чтобы извлечь документ из \n"
+"УАП (устройства автоматической подачи)."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"В УАП (устройстве автоматической подачи) застряла бумага. \n"
+"Откройте крышку и удалите застрявшую бумагу, затем закройте крышку.\n"
+"Нажмите кнопку <ОК>, чтобы сбросить флаг ошибки на панели управления принтера."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"Открыта крышка УАП (устройства автоматической подачи). \n"
+"Закройте крышку и нажмите кнопку <ОК>, чтобы сбросить флаг ошибки на панели \n"
+"управления принтера."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"В УАП (устройстве автоматической подачи) нет документов. \n"
+"Нажмите кнопку <ОК> на панели управления принтером, чтобы снять состояние \n"
+"ошибки, \n"
+"затем вставьте бумагу в УАП."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Слишком длинный документ.\n"
+"Убедитесь, что крышка УАП (устройства автоматической подачи) закрыта, \n"
+"и нажмите кнопку <ОК> на панели управления принтера, чтобы удалить документ из \n"
+"УАП."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Размер бумаги не подходит для двухстороннего сканирования. \n"
+"Убедитесь, что крышка УАП (устройства автоматической подачи) закрыта, \n"
+"и нажмите кнопку <ОК> на панели управления принтера, чтобы удалить документ из \n"
+"УАП."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Не удается установить связь со сканером по следующим причинам.\n"
+"- Сканер выключен.\n"
+"- Сканер отсоединен.\n"
+"(Он отсоединен от локальной сети, если используется через сеть.)\n"
+"\n"
+"Проверьте и повторите попытку.\n"
+"Драйвер сканера будет закрыт."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Не удается установить связь со сканером по следующим причинам.\n"
+"- Сканер выключен.\n"
+"- Не освобожден блокиратор.\n"
+"- Сканер отсоединен.\n"
+"(Он отсоединен от локальной сети, если используется через сеть.)\n"
+"\n"
+"Проверьте и повторите попытку.\n"
+"Драйвер сканера будет закрыт."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Освободите блокиратор сканера, выключите и снова включите устройство.\n"
+"Драйвер сканера будет закрыт."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"Идет обработка полученных от сканера данных калибровки.\n"
+"Не открывайте крышку документа."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Идет прогрев сканера...\n"
+"Не открывайте крышку документа."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "Удаление предварительных изображений."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr ""
+"Изменена настройка параметра \"Выбор источника\", поэтому предварительное \n"
+"изображение удаляется."
+

@@ -1,0 +1,931 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:41+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "Önizlemeyi Temizle"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "Hakkında"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "Kaynak Seç"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "Önizleme Resmini Görüntüle"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "Önizleme"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "Hedef"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "Çıkış Boyutu"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "Kırpma çerçevelerini ayarla"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "Tarama Yap"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "Tara"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "Basit Mod"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "Kaynak Seç:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "Renkli Modu:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "Genişlik:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "Yükseklik:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "Kağıt Boyutu:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "Ciltleme Konumu:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "Girdi Ayarları"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "Çıkış Çözünürlüğü:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "Çıkış Boyutu:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "Veri Boyutu:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "Çıkış Ayarları"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "Flu Görüntü Maskesi:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "Perdelemeyi Kaldır:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "Resim Ayarları"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "Parlaklık/Karşıtlık"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "Histogram"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "Ton Eğrisi Ayarları"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "Son İnceleme"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "Eşik"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "Varsayılanlar"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "Gelişmiş Modu"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "Tercihler..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "Kapat"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "Tercihler"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "Sessiz Modu"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "Ayarlama Ayarları"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "Her Taramada Yürüt:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "Tarayıcı"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "Önerilen"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "Yok"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "Monitör Gamma:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "Renk Ayarları"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "Tamam"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "Tarayıcıyı Seç"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "Tarayıcı algılanmadı."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "Tarayıcı Listesini Güncelle"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "Taranan Resmi Kaydet"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "Kayıt türü:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "Kaydet"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Aynı adla bir dosya zaten var.\n"
+"Üzerine yazmak istediğinizden emin misiniz."
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "Kanal:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "Parlaklık:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "Koyu"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "Parlak"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "Karşıtlık:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "Düşük"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "Yüksek"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "Gri Dengesi:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "Ton Eğrisi Seç:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "Düzeltme yok"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "Fazla pozlama"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "Az pozlama"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "Yüksek karşıtlık"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "Orijinal"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "Geçerli"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "Eşik Düzeyi:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "Açık"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "Koyu"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "Taranıyor..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "Fotoğraf(Renkli)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "Dergi(Renkli)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "Gazete(Siyah Beyaz)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "Belge(Gri Tonlamalı)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "Gazete(Gri Tonlamalı)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "Belge(Renkli) ADF Simpleks"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "Belge(Gri Tonlamalı) ADF Simpleks"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "Belge(Renkli) ADF Dupleks"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "Belge(Gri Tonlamalı) ADF Dupleks"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "Yazdır(300dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "Resim ekranı(150dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "Yazdır"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "Resim ekranı"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "Esnek"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Kart"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L Yatay"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L Dikey"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L Yatay"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L Dikey"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm Yatay"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm Dikey"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 piksel"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 piksel"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 piksel"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 piksel"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 piksel"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 piksel"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 piksel"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 piksel"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 piksel"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "Tam Plaka"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "Plaka"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "Belge (ADF Simpleks)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "Belge (ADF Dupleks)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "Uzun Kenar"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "Kısa Kenar"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "Renkli"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "Renkli (Belgeler)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "Gri tonlamalı"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "Siyah Beyaz"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "piksel"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "inç"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "santimetre"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "AÇIK"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "KAPALI"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "Asıl"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "Kırmızı"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "Yeşil"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "Mavi"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "Gri tonlamalı"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "Dosya adı belirtilmedi."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"Belirtilen dosyaya erişim izniniz yok.\n"
+"Başka bir dosya adı belirtin veya dosyayı başka bir dizine kaydedin."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"Belirtilen dizin yok veya dizine erişim izniniz bulunmuyor.\n"
+"Dosyayı başka bir dizine kaydedin."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"Belirtilen dosya adı geçersiz.\n"
+"Başka bir dosya adı belirtin."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "Bu mesajı bir daha görüntüleme."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "Ayarları varsayılan değerlerine sıfırlar."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"100 MB'den büyük bir resmi taramaya çalışıyorsunuz. Bu boyuttaki resimleri \n"
+"taramak bilgisayara dikkate değer bir yük bindirir ve bazı uygulamalar resmi \n"
+"yükleyemeyebilir. \n"
+"Devam etmek istediğinizden emin misiniz?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Kırpma boyutu, \n"
+"çıkış boyutu veya çıkış çözünürlüğü \n"
+"%s x %s piksel \n"
+"veya daha altına düşürülmezse tarama gerçekleştirilemez."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr ""
+"Flu Görüntü Maskesini AÇIK durumda tutarsanız, Perdelemeyi Kaldır komutu \n"
+"çalışmayabilir."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"ADF (Otomatik Belge Besleyici) boş. \n"
+"Kağıdı ADF'ye yerleştirin."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Kullanılabilir tarayıcılar bulunamıyor.\n"
+"\n"
+"Kablo bağlantısı kesilmiş veya tarayıcı kapatılmış olabilir.\n"
+"Tarayıcı durumunu kontrol edin ve yeniden deneyin."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"Büyük bir resim taramaya çalışıyorsunuz.\n"
+"Bu resmi taramak isterseniz, resim boyutunu veya\n"
+"çıkış çözünürlüğünü küçültün."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "Kaydediliyor..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "Aktarılıyor..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d sayfa"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "Arıyor..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "Tarayıcılar aranıyor."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "Tarayıcı listesi güncelleniyor."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "Tarama kullanıcı tarafından iptal edildi."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "Kopyalıyor...  İşlem bittikten sonra tara."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "Yazdırılıyor...  İşlem bittikten sonra tara."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Yazıcı bakımı yapılıyor. İşlem bittikten sonra tara."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Tarayıcıyla iletişim kurulamıyor.\n"
+"Kablo bağlantısı kesilmiş veya tarayıcı kapatılmış olabilir. \n"
+"Durumu kontrol edin.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Taramayı tamamlamak için yeterli boş disk alanı yok.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Dahili Hata oluştu.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Tarayıcıda hata oluştu.\n"
+"Tarayıcıyı kapatın ve el kitabındaki yönergeleri izleyin.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"Yazıcı kullanımda veya bir hata oluştu. Durumu denetleyin.\n"
+"Tarayıcı Sürücüsü kapatılacak."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "Yazıcı başlatma işlemi sürüyor. İşlem tamamlandıktan sonra taramanızı yapın."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Hata oluştu.\n"
+"Aygıtı kapatıp yeniden açın.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Tarama kullanıcı tarafından iptal edildi. \n"
+"Belgeyi ADF'den (Otomatik Belge Besleyici) çıkarmak için yazıcının işletim \n"
+"panelindeki <OK> düğmesine basın."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"ADF'de (Otomatik Belge Besleyici) kağıt sıkışması oluştu. \n"
+"Kapağı açın, kağıt sıkışmasını giderin ve ardından belge kapağını kapatın.\n"
+"Yazıcının işletim paneli üzerinde durumu temizlemek için <OK> düğmesine basın."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"ADF (Otomatik Belge Besleyici) kapağı açık. \n"
+"Kapağı kapatın ve ardından yazıcının işletim paneli üzerinde durumu temizlemek \n"
+"için <OK> düğmesine basın."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"ADF'de (Otomatik Belge Besleyici) belge yok. \n"
+"Yazıcı işletim panelindeki <OK> düğmesine basarak hatayı iptal edin ve ardından \n"
+"ADF'ye kağıt yerleştirin."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Belge çok uzun.\n"
+"ADF (Otomatik Belge Besleyici) kapağının kapalı olduğunu kontrol edin, \n"
+"ve belgeyi ADF'den çıkarmak için yazıcı işletim panelindeki <OK> düğmesine \n"
+"basın."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Kağıt boyutu çift taraflı tarama için uygun değil. \n"
+"ADF (Otomatik Belge Besleyici) kapağının kapalı olduğunu kontrol edin, \n"
+"ve belgeyi ADF'den çıkarmak için yazıcı işletim panelindeki <OK> düğmesine \n"
+"basın."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Şu nedenlerden dolayı tarayıcıyla iletişim kurulamıyor:\n"
+"- Tarayıcı kapalı.\n"
+"- Tarayıcı bağlı değil.\n"
+"-(LAN üzerinde kullanılıyorsa, LAN bağlantısı kesilmiş.)\n"
+"\n"
+"Lütfen kontrol edip yeniden deneyin.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Şu nedenlerle tarayıcı ile iletişim kurulamıyor:\n"
+"- Tarayıcı kapalı.\n"
+"- Kilit düğmesi açılmamış.\n"
+"- Tarayıcı bağlı değil.\n"
+"(LAN üzerinden kullanılıyorsa, LAN'a bağlı değil.)\n"
+"\n"
+"Lütfen kontrol edip yeniden deneyin.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Kilit düğmesini açın, aygıtı kapatıp tekrar açın.\n"
+"Tarayıcı sürücüsü kapatılacak."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"Tarayıcının ayarlama verileri işleniyor.\n"
+"Belge kapağını açmayın."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Tarayıcı ısınıyor...\n"
+"Belge kapağını açmayın."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "Önizleme resimlerini silin."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "Kaynak Seç değiştirildiğinden önizleme resmi silinir."

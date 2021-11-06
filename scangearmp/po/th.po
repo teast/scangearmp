@@ -1,0 +1,918 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:40+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "ล้างภาพตัวอย่าง"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "เกี่ยวกับ"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "เลือกต้นทาง"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "แสดงรูปภาพตัวอย่าง"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "ดูภาพตัวอย่าง"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "ปลายทาง"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "ขนาดผลงาน"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "ปรับกรอบการครอบตัด"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "ปฏิบัติการสแกน"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "สแกน"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "โหมดขั้นพื้นฐาน"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "เลือกต้นทาง:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "โหมดสี:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "ความกว้าง:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "ความสูง:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "ขนาดกระดาษ:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "ตำแหน่งเข้าเล่ม:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "การตั้งค่าข้อมูลป้อนเข้า"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "ความละเอียดผลงาน:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "ขนาดผลงาน:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "ขนาดข้อมูล:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "การตั้งค่าผลงาน"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "ปกปิดรูปไม่ชัดเจน:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "ลบลายตาข่าย:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "การตั้งค่ารูปภาพ"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "ความสว่าง/ความคมชัด"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "ฮิสโตแกรม"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "การตั้งค่าเส้นโค้งโทนสี"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "ตรวจสอบสุดท้าย"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "จุดเปลี่ยน"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "ค่ามาตราฐาน"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "โหมดขั้นสูง"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "กำหนดลักษณะ..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "ปิด"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "กำหนดลักษณะ"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "โหมดเงียบ"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "การตั้งค่าการปรับเทียบค่ามาตราฐาน"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "ดำเนินการทุกครั้งที่สแกน:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "เครื่องสแกนเนอร์"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "แนะนำ"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "ไม่มี"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "แกมมามอนิเตอร์:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "การตั้งค่าสี"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "ตกลง"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "ยกเลิก"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "เลือกเครื่องสแกนเนอร์"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "ไม่ได้ตรวจพบเครื่องสแกนเนอร์"
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "ปรับปรุงรายการเครื่องสแกนเนอร์"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "จัดเก็บรูปภาพที่สแกน"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "จัดเก็บเป็นชนิด:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "บันทึก"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"ชื่อไฟล์เดียวกันมีอยู่แล้ว\n"
+"คุณต้องการที่จะเขียนทับหรือไม่"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "ช่องทาง:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "ความสว่าง:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "มืด"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "สว่าง"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "ความคมชัด:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "ต่ำ"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "สูง"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "ความสมดุลของสีเทา:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "เลือกเส้นโค้งโทนสี:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "ไม่มีการแก้ไข"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "การรับแสงเกิน"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "การรับแสงไม่พอ"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "ความคมชัดสูง"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "ต้นฉบับ"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "ปัจจุบัน"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "ระดับจุดเปลี่ยน:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "สว่าง"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "มืด"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "กำลังสแกน..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "ภาพถ่าย(สี)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "นิตยสาร(สี)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "หนังสือพิมพ์(ขาวดำ)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "เอกสาร(เฉดสีเทา)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "หนังสือพิมพ์(เฉดสีเทา)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "เอกสาร(สี) ADF เป็นหน้าเดียว"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "เอกสาร(เฉดสีเทา) ADF เป็นหน้าเดียว"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "เอกสาร(สี) ADF ทั้งสองหน้า"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "เอกสาร(เฉดสีเทา) ADF ทั้งสองหน้า"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "พิมพ์(300dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "การแสดงผลภาพ(150dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "พิมพ์"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "การแสดงผลภาพ"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "ยืดหยุ่น"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Card"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L แนวนอน"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L แนวตั้ง"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L แนวนอน"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L แนวตั้ง"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "4\" x 6\" แนวนอน"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "4\" x 6\" แนวตั้ง"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 พิกเซล"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 พิกเซล"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 พิกเซล"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 พิกเซล"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 พิกเซล"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 พิกเซล"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 พิกเซล"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 พิกเซล"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 พิกเซล"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "แท่นวางเต็ม"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "แท่นวาง"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "เอกสาร (ADF เป็นหน้าเดียว)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "เอกสาร (ADF ทั้งสองหน้า)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "ขอบด้านยาว"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "ขอบด้านสั้น"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "สี"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "สี(เอกสาร)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "เฉดสีเทา"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "สีดำและสีขาว"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "พิกเซล"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "in"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "เซนติเมตร"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "เปิด"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "ปิด"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "มาสเตอร์"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "แดง"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "สีเขียว"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "สีน้ำเงิน"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "เฉดสีเทา"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "ไม่ได้ระบุชื่อไฟล์"
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"คุณไม่ได้รับอนุญาตให้สามารถเข้าถึงไฟล์ที่ระบุ\n"
+"ระบุไฟล์ในชื่ออื่นหรือจัดเก็บไฟล์นี้ในไดเร็กทอรีอื่น"
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"ไฟล์ที่ได้ระบุไม่มีอยู่หรือคุณไม่ได้รับอนุญาตให้สามารถเข้าถึงไดเร็กทอรี\n"
+"จัดเก็บไฟล์นี้ในไดเร็กทอรีอื่น"
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"ชื่อไฟล์ที่ได้ระบุไม่ถูกต้อง\n"
+"ระบุไฟล์ในชื่ออื่น"
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "ไม่แสดงข้อความนี้อีก"
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "รีเซ็ตการตั้งค่าเป็นค่ามาตราฐาน"
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"รูปภาพที่ท่านกำลังสแกนมีขนาดมากกว่า 100 MB การสแกนรูปภาพ\n"
+"ขนาดเช่นนี้มากเกินไปซึ่งที่วางอยู่ในคอมพิวเตอร์ และแอพพลิเคชั่น\n"
+"บางโปรแกรมอาจไม่สามารถโหลดรูปภาพนี้ได้\n"
+"ท่านแน่ใจหรือไม่ที่จะสแกนต่อไป"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"ไม่สามารถดำเนินการสแกน เว้นแต่จะลดขนาดครอบตัด \n"
+"ขนาดผลงานหรือความละเอียดผลงานลงเป็น \n"
+"%sx%s พิกเซลหรือน้อยกว่า"
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr "หากท่านเปิดใช้การ 'ปกปิดรูปไม่ชัดเจน' ไว้ 'ลบลายตาข่าย' จะไม่ทำงาน"
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr "ADF(ตัวป้อนเอกสารอัตโนมัติ)ว่างเปล่า ป้อนกระดาษใน ADF"
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"ไม่พบเครื่องสแกนเนอร์ที่สามารถใช้ได้\n"
+"\n"
+"สายเคเบิลอาจถูกตัดการเชื่อมต่อหรือเครื่องสแกนเนอร์ถูกปิด\n"
+"กรุณาตรวจสอบสถานะของเครื่องสแกนเนอร์ และลองใหม่อีกครั้ง"
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"ท่านกำลังลองสแกนรูปภาพที่ใหญ่\n"
+"ลดขนาดรูปภาพหรือความละเอียดผลงาน\n"
+"เมื่อท่านต้องการสแกนรูปภาพนี้"
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "กำลังบันทึก..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "กำลังโอนย้าย..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d หน้า"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "ค้นหา..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "การตรวจสอบเครื่องสแกนเนอร์"
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "การปรับปรุงรายการเครื่องสแกนเนอร์"
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "การสแกนถูกยกเลิกโดยผู้ใช้"
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "กำลังคัดลอก... สแกนหลังจากดำเนินการเสร็จ"
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "กำลังพิมพ์...  สแกนหลังจากดำเนินการเสร็จ"
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "กำลังบำรุงรักษาเครื่องพิมพ์ สแกนหลังจากดำเนินการเสร็จ"
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"ไม่สามารถติดต่อกับเครื่องสแกนเนอร์\n"
+"สายเคเบิลอาจถูกตัดการเชื่อมต่อหรือเครื่องสแกนเนอร์ถูกปิด\n"
+"กรุณาตรวจสอบสถานะ\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิด"
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"พื้นที่ว่างบนดิสก์ไม่เพียงพอที่จะทำการสแกนได้ครบถ้วน ไดรเวอร์เครื่องสแกนเนอร์\n"
+" จะถูกปิด"
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"เกิดความผิดพลาดภายใน ไดรเวอร์เครื่องสแกนเนอร์\n"
+" จะถูกปิด"
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"เครื่องสแกนเนอร์เกิดข้อผิดพลาด\n"
+"ปิดใช้งานเครื่องสแกนเนอร์ แล้วทำตามคำแนะนำในคู่มือการใช้งาน\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิด"
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"เครื่องพิมพ์กำลังใช้งานอยู่หรือเกิดข้อผิดพลาดขึ้น กรุณาตรวจสอบสถานะ\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิด"
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "กำลังเริ่มต้นเครื่องพิมพ์ สแกนหลังจากดำเนินการเสร็จ"
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"เกิดข้อผิดพลาดขึ้น\n"
+"ให้ปิดอุปกรณ์แล้วเปิดใหม่\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิด"
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"การสแกนถูกยกเลิกโดยผู้ใช้ \n"
+"กดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อผลักเอกสารจาก ADF(ตัวป้อนเอกสารอัตโนมัติ)"
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"กระดาษติดใน ADF(ตัวป้อนเอกสารอัตโนมัติ) เปิดฝาครอบและนำกระดาษที่ติดอยู่ออก จากนั้น ปิดฝาครอบเอกสาร \n"
+"กดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อล้างสถานะ"
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr "ฝาครอบ ADF(ตัวป้อนเอกสารอัตโนมัติ)เปิดอยู่ ปิดฝาครอบเอกสารและกดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อล้างสถานะ"
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"ไม่มีเอกสารใน ADF(ตัวป้อนเอกสารอัตโนมัติ) \n"
+"ให้กดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อยกเลิกข้อผิดพลาด แล้วใส่กระดาษใน ADF"
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"เอกสารยาวเกินไป \n"
+"ตรวจให้แน่ใจว่าฝาครอบ ADF(ตัวป้อนเอกสารอัตโนมัติ)ปิดอยู่ \n"
+"และกดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อผลักเอกสารจากออกจาก ADF"
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"ขนาดกระดาษไม่เหมาะสำหรับการสแกนสองหน้า \n"
+"ตรวจให้แน่ใจว่าฝาครอบ ADF(ตัวป้อนเอกสารอัตโนมัติ)ปิดอยู่ \n"
+"และกดปุ่ม <OK> บนแผงการทำงานของเครื่องพิมพ์เพื่อผลักเอกสารจากออกจาก ADF"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"ไม่สามารถติดต่อกับเครื่องสแกนเนอร์ได้ด้วยเหตุการณ์เหล่านี้:\n"
+"- เครื่องสแกนเนอร์ถูกปิดแล้ว\n"
+"- เครื่องสแกนเนอร์ซึ่งถูกตัดออกจากกันแล้ว\n"
+"(คือตัดออกจากกันจาก LAN ขณะที่คุณการใช้ LAN )\n"
+"\n"
+"กรุณาตรวจสอบและลองใหม่อีกครั้ง\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิดลง"
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"ไม่สามารถติดต่อกับเครื่องสแกนเนอร์ได้ด้วยเหตุการณ์เหล่านี้:\n"
+"- เครื่องสแกนเนอร์ถูกปิดแล้ว\n"
+"- ไม่ได้ปล่อยตัวล็อกสวิตช์\n"
+"- เครื่องสแกนเนอร์ถูกตัดออกจากกันแล้ว\n"
+"(คือตัดออกจากกันจาก LAN ขณะที่คุณกำลังใช้ LAN)\n"
+"\n"
+"กรุณาตรวจสอบแล้วลองใหม่\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิดลง"
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"ปล่อยตัวล็อกสวิตช์ ให้ปิดอุปกรณ์แล้วเปิดใหม่\n"
+"ไดรเวอร์เครื่องสแกนเนอร์จะถูกปิด"
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"กำลังดำเนินการปรับเทียบค่ามาตราฐานจากเครื่องสแกนเนอร์\n"
+"อย่าเปิดฝาครอบของเอกสาร"
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"กำลังอุ่นเครื่องสแกนเนอร์...\n"
+"อย่าเปิดฝาครอบของเอกสาร"
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "ลบรูปภาพตัวอย่าง"
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "เลือกต้นทาง' เปลี่ยนไปแล้ว กรุณาลบรูปภาพตัวอย่าง"

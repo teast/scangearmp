@@ -1,0 +1,54 @@
+Source: scangearmp-common
+Section: graphics
+Priority: optional
+Maintainer: Canon Inc. <sup-debian@list.canon.co.jp>
+Build-Depends: debhelper (>= 4.0.0), libgimp2.0-dev, libsane-dev
+Standards-Version: 3.7.2
+
+Package: scangearmp-common
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mp250series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mp280series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mp495series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mg5100series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mg5200series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mg6100series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.
+
+Package: scangearmp-mg8100series
+Architecture: amd64 i386
+Depends: ${shlibs:Depends}, ${misc:Depends}, scangearmp-common (>= 1.60)
+Description: ScanGear MP for Linux.
+ This ScanGear MP provides scanning functions for Canon Multifunction Inkjet Printer.

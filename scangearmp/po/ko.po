@@ -1,0 +1,930 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:39+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "미리 보기 지우기"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "정보"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "소스 선택"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "미리 보기 이미지 표시"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "미리 보기"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "대상"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "출력 크기"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "자르기 프레임 조절"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "스캔 실행"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "스캔"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "기본 모드"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "소스 선택:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "컬러 모드:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "너비:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "높이:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "용지 크기:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "바인딩 위치:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "입력 설정"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "출력 해상도:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "출력 크기:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "데이터 크기:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "출력 설정"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "윤곽 강조:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "디스크린:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "이미지 설정"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "명도/대비도"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "히스토그램"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "색조 곡선 설정"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "최종 검토"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "임계값"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "기본"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "고급 모드"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "기본 설정..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "닫기"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "기본 설정"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "음소거 모드"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "보정 설정"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "스캔 시마다 실행:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "스캐너"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "권장"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "없음"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "모니터 Gamma:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "컬러 설정"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "확인"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "취소"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "스캐너 선택"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "스캐너가 검색되지 않았습니다."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "스캐너 목록 업데이트"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "스캔 이미지 저장"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "파일 형식:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "저장"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"같은 파일 이름이 이미 존재합니다.\n"
+"덮어 쓰시겠습니까?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "채널:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "명도:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "진함"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "밝음"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "대비도:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "낮음"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "높음"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "그레이 균형:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "색조 곡선 선택:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "수정 없음"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "노출 과다"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "노출 부족"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "높은 대비도"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "원본"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "현재"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "임계값 수준:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "연함"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "진함"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "스캔 중..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "사진(컬러)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "잡지(컬러)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "신문(흑백)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "문서(회색조)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "신문(회색조)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "문서(컬러) 자동 문서 공급기 단면"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "문서(회색조) 자동 문서 공급기 단면"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "문서(컬러) 자동 문서 공급기 양면"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "문서(회색조) 자동 문서 공급기 양면"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "인쇄(300dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "이미지 표시(150dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "인쇄"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "이미지 표시"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "가변 크기"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Card"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L 가로"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L 세로"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L 가로"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L 세로"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "4\" x 6\" 가로"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "4\" x 6\" 세로"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 픽셀"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 픽셀"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 픽셀"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 픽셀"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 픽셀"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 픽셀"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 픽셀"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 픽셀"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 픽셀"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "전체 평판 크기"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "평판"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "문서(자동 문서 공급기 단면)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "문서(자동 문서 공급기 양면)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "긴 가장자리"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "짧은 가장자리"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "컬러"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "컬러(문서)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "회색조"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "흑백"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "픽셀"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "in"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "cm"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "설정"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "해제"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "마스터"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "레드"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "그린"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "블루"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "회색조"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "파일 이름을 지정하지 않았습니다."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"지정된 파일을 액세스할 권한이 없습니다.\n"
+"다른 파일 이름을 지정하거나 다른 디렉토리에 이 파일을 저장하십시오."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"지정된 디렉토리가 존재하지 않거나 이 디렉토리를 액세스할 권한이 없습니다\n"
+".\n"
+"다른 디렉토리에 이 파일을 저장하십시오."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"지정된 파일 이름은 잘못된 것입니다.\n"
+"다른 파일 이름을 지정하십시오."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "이 메시지를 다시 표시하지 않습니다."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "설정을 기본값으로 재설정합니다."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"100MB가 넘는 이미지의 스캔을 시도하고 있습니다. 이 크기의 이미지를\n"
+" 스캔하면 컴퓨터에 많은 로드가 걸려 일부 어플리케이션에서 이미지를 로드\n"
+"하지 못할 수 있습니다. \n"
+"계속하시겠습니까?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"자르기 크기, 출력 크기 또는 출력 해상도를 \n"
+"%s x %s 픽셀 이하로 줄여야 \n"
+"스캔을 실행할 수 있습니다."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr ""
+"[윤곽 강조]를 [설정]으로 유지하면 [디스크린]이 작용하지 않을 수 있\n"
+"습니다."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"ADF(자동 문서 공급기)가 비어 있습니다. \n"
+"자동 문서 공급기에 용지를 넣으십시오."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"사용할 수 있는 스캐너를 찾을 수 없습니다.\n"
+"\n"
+"케이블이 연결되어 있지 않거나 스캐너가 꺼졌을 수 있습니다.\n"
+"스캐너 상태를 확인한 다음 다시 시도해 보십시오."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"큰 이미지의 스캔을 시도하고 있습니다.\n"
+"이 이미지를 스캔하려는 경우, 이미지 크기\n"
+"또는 출력 해상도를 줄입니다."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "저장 중..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "전송 중..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d 페이지"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "검색 중..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "스캐너를 검색하는 중입니다."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "스캐너 목록을 업데이트하는 중입니다."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "스캔을 취소했습니다."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "복사 중입니다...  완료 후 스캔합니다."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "인쇄 중입니다...  완료 후 스캔합니다."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "프린터를 유지 관리하는 중입니다. 완료 후 스캔합니다."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"스캐너와 통신할 수 없습니다.\n"
+"케이블이 연결되어 있지 않거나 스캐너가 꺼졌을 수 있습니다.\n"
+"상태를 확인합니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"디스크 공간이 부족하여 스캔을 완료할 수 없습니다. \n"
+"스캐너 드라이버가 닫힙니다."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"내부 에러가 발생했습니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"스캐너에서 에러가 발생했습니다.\n"
+"스캐너를 끄고 안내서의 설명을 따릅니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"프린터가 사용 중이거나 에러가 발생했습니다. 상태를 확인합니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "프린터를 초기화하는 중입니다. 완료 후 스캔합니다."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"에러가 발생했습니다.\n"
+"설비를 끄고 다시 켭니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"스캔을 취소했습니다. \n"
+"프린터 조작판의 <OK> 버튼을 눌러 ADF(자동 문서 공급기)에서 문서\n"
+"를 배출하십시오."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(자동 문서 공급기)에서 용지가 걸렸습니다. \n"
+"커버를 열고 걸린 용지를 제거한 다음 문서 커버를 닫으십시오.\n"
+"프린터 조작판의 <OK> 버튼을 눌러 이 상태를 제거하십시오."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(자동 문서 공급기) 커버가 열려 있습니다. \n"
+"문서 커버를 닫고 프린터 조작판의 <OK> 버튼을 눌러 이 상태를 제거하\n"
+"십시오."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"ADF(자동 문서 공급기)에 문서가 없습니다. \n"
+"프린터 조작판의 <OK> 버튼을 눌러 에러를 취소한 다음 자동 문서 공급\n"
+"기에 용지를 넣습니다."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"문서가 너무 깁니다.\n"
+"ADF(자동 문서 공급기) 커버가 닫혔는지 확인하고 \n"
+"프린터 조작판의 <OK> 버튼을 눌러 ADF에서 문서를 배출하십시오."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"용지 크기가 양면 스캔에 적합하지 않습니다. \n"
+"ADF(자동 문서 공급기) 커버가 닫혔는지 확인하고 \n"
+"프린터 조작판의 <OK> 버튼을 눌러 자동 문서 공급기에서 문서를 배출하\n"
+"십시오."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"이러한 이유때문에 스캐너와 통신할 수 없습니다.\n"
+"- 스캐너가 꺼졌습니다.\n"
+"- 스캐너가 연결되어 있지 않습니다.\n"
+"(LAN을 사용할 경우, LAN에 연결되어 있지 않습니다.)\n"
+"\n"
+"검사해 보고 다시 시도하십시오.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"이러한 이유때문에 스캐너와 통신할 수 없습니다.\n"
+"- 스캐너가 꺼졌습니다.\n"
+"- 잠금 스위치가 해제되지 않았습니다.\n"
+"- 스캐너가 연결되어 있지 않습니다.\n"
+"(LAN을 사용할 경우, LAN에 연결되어 있지 않습니다.)\n"
+"\n"
+"검사해 보고 다시 시도하십시오.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"잠금 스위치를 해제하고, 설비를 끄고 다시 켭니다.\n"
+"스캐너 드라이버가 닫힙니다."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"스캐너에서 보정 데이터를 처리하는 중입니다.\n"
+"문서 커버를 열지 마십시오."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"스캐너가 준비 중입니다...\n"
+"문서 커버를 열지 마십시오."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "미리 보기 이미지를 삭제합니다."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "[소스 선택]이 변경되었기 때문에 미리 보기 이미지를 삭제합니다."

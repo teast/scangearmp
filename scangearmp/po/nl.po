@@ -1,0 +1,930 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:35+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "Voorbeeld wissen"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "Info"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "Bron selecteren"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "Voorbeeldafbeelding weergeven"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "Doel"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "Uitvoerformaat"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "Bijsnijdkaders aanpassen"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "Scannen"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "Scannen"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "Basismodus"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "Bron selecteren:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "Kleurenmodus:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "Breedte:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "Hoogte:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "Papierformaat:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "Inbindlocatie:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "Instellingen voor invoer"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "Uitvoerresolutie:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "Uitvoerformaat:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "Gegevensgrootte:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "Instellingen voor uitvoer"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "Beeld verscherpen:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "Moiré-reductie:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "Instellingen voor afbeeldingen"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "Helderheid/contrast"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "Histogram"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "Tintcurve-instellingen"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "Laatste controle"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "Drempel"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "Standaard"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "Geavanceerde modus"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "Voorkeuren..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "Voorkeuren"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "Stille modus"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "Kalibratie-instellingen"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "Uitvoeren bij elke scan:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "Scanner"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "Geen"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "Monitorgamma:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "Kleurinstellingen"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "OK"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "Scanner selecteren"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "Geen scanners gevonden."
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "Scannerlijst bijwerken"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "Scanafbeelding opslaan"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "Opslaan als type:"
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "Opslaan"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"Deze bestandsnaam bestaat reeds.\n"
+"Wilt u deze overschrijven?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "Kanaal:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "Helderheid:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "Donker"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "Helder"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "Contrast:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "Laag"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "Hoog"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "Grijsbalans:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "Tintcurve selecteren:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "Geen correctie"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "Overbelichting"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "Onderbelichting"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "Veel contrast"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "Origineel"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "Huidig"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "Drempelniveau:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "Licht"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "Donker"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "Bezig met scannen..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "Foto (kleur)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "Tijdschrift (kleur)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "Krant (zwart-wit)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "Document (grijswaarden)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "Krant (grijswaarden)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "Document (kleur) ADF enkelzijdig"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "Document (grijstinten) ADF enkelzijdig"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "Document (kleur) ADF dubbelzijdig"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "Document (grijstinten) ADF dubbelzijdig"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "Afdrukken (300 dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "Afbeeldingsweergave (150 dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR (300 dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "Afdrukken"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "Afbeeldingsweergave"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "Aanpasbaar"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Kaart"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "Groot formaat Liggend"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "Groot formaat Staand"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L Liggend"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L Staand"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "10x15cm Liggend"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "10x15cm Staand"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 pixels"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 pixels"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 pixels"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 pixels"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 pixels"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 pixels"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 pixels"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 pixels"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 pixels"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "Volledige plaat"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "Plaat"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "Document (ADF enkelzijdig)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "Document (ADF dubbelzijdig)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "Lange zijde"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "Korte zijde"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "Kleur"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "Kleur (documenten)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "Grijswaarden"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "Zwart-wit"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "pixels"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "inch"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "centimeter"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "AAN"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "UIT"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "Model"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "Rood"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "Groen"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "Blauw"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "Grijswaarden"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "De bestandsnaam is niet opgegeven."
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"U hebt geen toestemming om dit bestand te openen.\n"
+"Geef een andere bestandsnaam op of sla het bestand op in een andere map."
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"De opgegeven map bestaat niet of u hebt geen toestemming om deze te openen.\n"
+"Sla het bestand op in een andere map."
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"De opgegeven bestandsnaam is ongeldig.\n"
+"Geef een andere bestandsnaam op."
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "Dit bericht niet meer weergeven."
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "De standaardwaarden opnieuw instellen."
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"U wilt een beeld scannen dat groter is dan 100 MB. Dit betekent een \n"
+"aanzienlijke belasting voor computer. Bovendien kan het beeld mogelijk niet in \n"
+"bepaalde toepassingen worden geladen. \n"
+"Weet u zeker dat u wilt doorgaan?"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"Het scannen kan alleen worden uitgevoerd, \n"
+"als het bijsnijformaat, \n"
+"het uitvoerformaat of de uitvoerresolutie wordt teruggebracht tot \n"
+"%s x %s pixels of minder."
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr "Als Onscherp masker is ingeschakeld, werkt Moiré-reductie mogelijk niet."
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"De ADF (automatische documentinvoer) is leeg. \n"
+"Plaats papier in de ADF."
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"Kan geen beschikbare scanners vinden.\n"
+"\n"
+"De kabel is niet goed aangesloten of de scanner is uitgeschakeld.\n"
+"Controleer de status van de scanner en probeer het opnieuw."
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"U wilt een grote afbeelding scannen.\n"
+"Verklein de afbeeldingsgrootte of uitvoerresolutie wanneer u deze\n"
+"afbeelding wilt scannen."
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "De gegevens worden opgeslagen..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "De gegevens worden overgebracht..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d pagina('s)"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "Bezig met zoeken..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "Er wordt gezocht naar scanners."
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "De scannerlijst wordt bijgewerkt."
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "Het scannen is geannuleerd."
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "Kopiëren...  Scannen nadat dit is voltooid."
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "Afdrukken...  Scannen nadat dit is voltooid."
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "Printeronderhoud wordt uitgevoerd. Scannen nadat dit is voltooid."
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Er is geen communicatie met de scanner mogelijk.\n"
+"De kabel is niet goed aangesloten of de scanner is uitgeschakeld. \n"
+"Controleer de status.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Er is niet voldoende geheugen beschikbaar om de scan te voltooien.\n"
+"Het scannerstuurprogramma wordt afgesloten."
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Er is een interne fout opgetreden.\n"
+"Het scannerstuurprogramma wordt afgesloten."
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Fout in scanner.\n"
+"Zet de scanner uit en volg de aanwijzingen in de handleiding op.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"Printer is in gebruik of er is een fout opgetreden. Controleer de status.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "Printer wordt geïnitialiseerd. Scan pas nadat dit is voltooid."
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Er trad een fout op.\n"
+"Schakel het apparaat uit en weer aan.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"Het scannen is door de gebruiker geannuleerd. \n"
+"Druk op de knop <OK> op het bedieningspaneel van de printer om het document uit \n"
+"de ADF (automatische documentinvoer) te voeren."
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"Er is een papierstoring opgetreden in de ADF (automatische documentinvoer). \n"
+"Open de klep, verwijder het vastgelopen papier en sluit de documentklep.\n"
+"Druk vervolgens op de knop <OK> op het bedieningspaneel van de printer om de \n"
+"status te wissen."
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"De klep van de ADF (automatische documentinvoer) is geopend. \n"
+"Sluit de documentklep en druk op de knop <OK> op het bedieningspaneel van de \n"
+"printer om de status te wissen."
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"Geen document in de ADF (automatische documentinvoer). \n"
+"Druk op de knop <OK> op het bedieningspaneel van de printer om de fout op te \n"
+"heffen en plaats vervolgens papier in de ADF."
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Document is te lang.\n"
+"Controleer of de klep van de ADF (automatisch documentinvoer) is gesloten, \n"
+"en druk op de knop <OK> op het bedieningspaneel van de printer om het document \n"
+"uit de ADF te voeren."
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"Het papierformaat is niet geschikt voor dubbelzijdig scannen. \n"
+"Controleer of de klep van de ADF (automatisch documentinvoer) is gesloten, \n"
+"en druk op de knop <OK> op het bedieningspaneel van de printer om het document \n"
+"uit de ADF te voeren."
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Communicatie met scanner is niet mogelijk om deze redenen:\n"
+"- Scanner is uitgeschakeld.\n"
+"- Scanner is niet verbonden.\n"
+"(Wanneer u deze in een LAN gebruikt, is de scanner niet verbonden met het LAN.)\n"
+"\n"
+"Controleer dit en probeer het opnieuw.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Communicatie met de scanner is niet mogelijk om deze redenen:\n"
+"- Scanner is uitgeschakeld.\n"
+"- De vergrendelingsschakelaar is niet ontgrendeld.\n"
+"- Scanner is niet verbonden.\n"
+"(Wanneer u deze in een LAN gebruikt, is de scanner niet verbonden met het LAN.)\n"
+"\n"
+"Controleer dit en probeer het opnieuw.\n"
+"Scannerstuurprogramma wordt gesloten."
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"Ontgrendel de vergrendelingsschakelaar, schakel het apparaat uit en weer aan.\n"
+"Het scannerstuurprogramma wordt gesloten."
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"De kalibratiegegevens van de scanner worden verwerkt.\n"
+"Houd de documentklep gesloten."
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"Scanner wordt opgewarmd...\n"
+"Open de documentklep niet."
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "Voorbeeldafbeeldingen verwijderen."
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "Bron selecteren is gewijzigd. De scanner wist daarom de voorbeeldafbeelding."

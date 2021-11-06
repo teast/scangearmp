@@ -1,0 +1,923 @@
+# ScanGear MP for Linux
+# Copyright CANON INC. 2007-2010
+# All Rights Reserved.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: scangearmp 1.60\n"
+"POT-Creation-Date: 2010-02-26 13:24+0900\n"
+"PO-Revision-Date: 2010-03-25 10:40+0900\n"
+"Last-Translator: CANON INC.\n"
+"Language-Team: CANON INC.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n."
+
+
+
+
+#: src/interface.c:163 src/interface.c:1527 src/interface.c:1597
+#: src/interface.c:3090 src/interface.c:3153 src/interface.c:3236
+#: src/interface.c:3400 src/interface.c:3481 src/interface.c:3545
+msgid "ScanGear"
+msgstr "ScanGear"
+
+#: src/interface.c:187
+msgid "Clear Preview"
+msgstr "清除預覽"
+
+#: src/interface.c:191
+msgid "About"
+msgstr "關於"
+
+#: src/interface.c:249
+msgid "Select Source"
+msgstr "選擇來源"
+
+#: src/interface.c:286
+msgid "Display Preview Image"
+msgstr "顯示預覽影像"
+
+#: src/interface.c:293 src/interface.c:800
+msgid "Preview"
+msgstr "預覽"
+
+#: src/interface.c:317
+msgid "Destination"
+msgstr "目的"
+
+#: src/interface.c:360
+msgid "Output Size"
+msgstr "輸出大小"
+
+#: src/interface.c:403
+msgid "Adjust cropping frames"
+msgstr "調整裁切畫格"
+
+#: src/interface.c:458
+msgid "Perform Scan"
+msgstr "執行掃描"
+
+#: src/interface.c:465 src/interface.c:796
+msgid "Scan"
+msgstr "掃描"
+
+#: src/interface.c:486
+msgid "Basic Mode"
+msgstr "基本模式"
+
+#: src/interface.c:506
+msgid "Select Source :"
+msgstr "選擇來源:"
+
+#: src/interface.c:519
+msgid "Color Mode :"
+msgstr "色彩模式:"
+
+#: src/interface.c:538 src/interface.c:644
+msgid "Width :"
+msgstr "寬度:"
+
+#: src/interface.c:560 src/interface.c:662
+msgid "Height :"
+msgstr "高度:"
+
+#: src/interface.c:583
+msgid "Paper Size :"
+msgstr "紙張大小:"
+
+#: src/interface.c:596
+msgid "Binding Location:"
+msgstr "裝訂位置:"
+
+#: src/interface.c:609
+msgid "Input Settings"
+msgstr "輸入設定"
+
+#: src/interface.c:634
+msgid "dpi"
+msgstr "dpi"
+
+#: src/interface.c:697
+msgid "Output Resolution :"
+msgstr "輸出解析度:"
+
+#: src/interface.c:704
+msgid "Output Size :"
+msgstr "輸出大小:"
+
+#: src/interface.c:717
+msgid "Data Size :"
+msgstr "資料大小:"
+
+#: src/interface.c:732
+msgid "Output Settings"
+msgstr "輸出設定"
+
+#: src/interface.c:750
+msgid "Unsharp Mask :"
+msgstr "模糊遮罩:"
+
+#: src/interface.c:763
+msgid "Descreen :"
+msgstr "去除網紋:"
+
+#: src/interface.c:774
+msgid "Image Settings"
+msgstr "影像設定"
+
+#: src/interface.c:814 src/interface.c:1684
+msgid "Brightness/Contrast"
+msgstr "亮度/對比度"
+
+#: src/interface.c:818 src/interface.c:1992
+msgid "Histogram"
+msgstr "長條圖"
+
+#: src/interface.c:822 src/interface.c:2389
+msgid "Tone Curve Settings"
+msgstr "色調曲線設定"
+
+#: src/interface.c:826 src/interface.c:2570
+msgid "Final Review"
+msgstr "最後檢閱"
+
+#: src/interface.c:830 src/interface.c:2831
+msgid "Threshold"
+msgstr "高反差"
+
+#: src/interface.c:833 src/interface.c:1242 src/interface.c:1842
+#: src/interface.c:2244 src/interface.c:2473 src/interface.c:2947
+msgid "Defaults"
+msgstr "預設值"
+
+#: src/interface.c:837
+msgid "Advanced Mode"
+msgstr "進階模式"
+
+#: src/interface.c:845
+msgid "Preferences..."
+msgstr "喜好設定..."
+
+#: src/interface.c:849 src/interface.c:1847 src/interface.c:2249
+#: src/interface.c:2478 src/interface.c:2739 src/interface.c:2952
+msgid "Close"
+msgstr "關閉"
+
+#: src/interface.c:1144
+msgid "Preferences"
+msgstr "喜好設定"
+
+#: src/interface.c:1163
+msgid "Quiet Mode"
+msgstr "靜音模式"
+
+#: src/interface.c:1175
+msgid "Calibration Settings"
+msgstr "校準設定"
+
+#: src/interface.c:1184
+msgid "Execute at Every Scan :"
+msgstr "每次掃描時執行:"
+
+#: src/interface.c:1192
+msgid "Scanner"
+msgstr "掃描器"
+
+#: src/interface.c:1201
+msgid "Recommended"
+msgstr "推薦"
+
+#: src/interface.c:1207
+msgid "None"
+msgstr "無"
+
+#: src/interface.c:1221
+msgid "Monitor Gamma :"
+msgstr "監視器 Gamma:"
+
+#: src/interface.c:1262
+msgid "Color Settings"
+msgstr "色彩設定"
+
+#: src/interface.c:1272 src/interface.c:1389 src/interface.c:1551
+#: src/interface.c:1621 src/interface.c:3114 src/interface.c:3195
+#: src/interface.c:3265 src/interface.c:3434 src/interface.c:3508
+#: src/interface.c:3569
+msgid "OK"
+msgstr "確定"
+
+#: src/interface.c:1277 src/interface.c:1394 src/interface.c:1483
+#: src/interface.c:1556 src/interface.c:3270 src/interface.c:3439
+#: src/interface.c:3574 src/cnmsstrings.h:149
+msgid "Cancel"
+msgstr "取消"
+
+#: src/interface.c:1350
+msgid "Select Scanner"
+msgstr "選擇掃描器"
+
+#: src/interface.c:1362
+msgid "No scanners detected."
+msgstr "未偵測到掃描器。"
+
+#: src/interface.c:1376
+msgid "Update Scanner List"
+msgstr "更新掃描器清單"
+
+#: src/interface.c:1445
+msgid "Save Scan Image"
+msgstr "儲存掃描影像"
+
+#: src/interface.c:1456
+msgid "Save as type:"
+msgstr "儲存類型："
+
+#: src/interface.c:1478
+msgid "Save"
+msgstr "儲存"
+
+#: src/interface.c:1543
+msgid ""
+"The same file name already exists.\n"
+"Are you sure to overwrite it?"
+msgstr ""
+"相同的檔案名稱已存在。\n"
+"您確定要將其覆寫嗎?"
+
+#: src/interface.c:1696 src/interface.c:2004 src/interface.c:2401
+#: src/interface.c:2582
+msgid "Channel :"
+msgstr "通道:"
+
+#: src/interface.c:1749
+msgid "Brightness :"
+msgstr "亮度:"
+
+#: src/interface.c:1767
+msgid "Dark"
+msgstr "暗"
+
+#: src/interface.c:1772
+msgid "Bright"
+msgstr "亮"
+
+#: src/interface.c:1798
+msgid "Contrast :"
+msgstr "對比度:"
+
+#: src/interface.c:1816
+msgid "Low"
+msgstr "低"
+
+#: src/interface.c:1821
+msgid "High"
+msgstr "高"
+
+#: src/interface.c:2169
+msgid "Gray Balance :"
+msgstr "灰階平衡:"
+
+#: src/interface.c:2453
+msgid "Select Tone Curve :"
+msgstr "選取色調曲線:"
+
+#. Tone Curve strings
+#: src/interface.c:2464 src/cnmsstrings.h:118
+msgid "No correction"
+msgstr "未校正"
+
+#: src/interface.c:2465 src/cnmsstrings.h:119
+msgid "Overexposure"
+msgstr "曝光過度"
+
+#: src/interface.c:2466 src/cnmsstrings.h:120
+msgid "Underexposure"
+msgstr "曝光不足"
+
+#: src/interface.c:2467 src/cnmsstrings.h:121
+msgid "High contrast"
+msgstr "高對比度"
+
+#: src/interface.c:2639
+msgid "Original"
+msgstr "原始稿"
+
+#: src/interface.c:2689
+msgid "Current"
+msgstr "目前"
+
+#: src/interface.c:2889
+msgid "Threshold Level :"
+msgstr "高反差等級:"
+
+#: src/interface.c:2905
+msgid "Light"
+msgstr "亮"
+
+#: src/interface.c:2910
+msgid " Dark"
+msgstr "暗"
+
+#. progress_bar.c
+#: src/interface.c:3026 src/cnmsstrings.h:141
+msgid "Scanning..."
+msgstr "掃描中..."
+
+#: src/support.c:90 src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr ""
+
+#. cnmsstr.c
+#. STRSUB_S_SOURCE
+#: src/cnmsstrings.h:36
+msgid "Photo(Color)"
+msgstr "相片(彩色)"
+
+#: src/cnmsstrings.h:37
+msgid "Magazine(Color)"
+msgstr "雜誌(彩色)"
+
+#: src/cnmsstrings.h:38
+msgid "Newspaper(B&W)"
+msgstr "報紙(黑白)"
+
+#: src/cnmsstrings.h:39
+msgid "Document(Grayscale)"
+msgstr "文件(灰階)"
+
+#: src/cnmsstrings.h:40
+msgid "Newspaper(Grayscale)"
+msgstr "報紙(灰階)"
+
+#: src/cnmsstrings.h:41
+msgid "Document(Color) ADF Simplex"
+msgstr "文件(彩色) 自動送稿機單面"
+
+#: src/cnmsstrings.h:42
+msgid "Document(Grayscale) ADF Simplex"
+msgstr "文件(灰階) 自動送稿機單面"
+
+#: src/cnmsstrings.h:43
+msgid "Document(Color) ADF Duplex"
+msgstr "文件(彩色) 自動送稿機雙面"
+
+#: src/cnmsstrings.h:44
+msgid "Document(Grayscale) ADF Duplex"
+msgstr "文件(灰階) 自動送稿機雙面"
+
+#. STRSUB_S_DESTINATION
+#: src/cnmsstrings.h:47
+msgid "Print(300dpi)"
+msgstr "列印(300dpi)"
+
+#: src/cnmsstrings.h:48
+msgid "Image display(150dpi)"
+msgstr "影像顯示(150dpi)"
+
+#: src/cnmsstrings.h:49
+msgid "OCR(300dpi)"
+msgstr "OCR(300dpi)"
+
+#: src/cnmsstrings.h:50
+msgid "Print"
+msgstr "列印"
+
+#: src/cnmsstrings.h:51
+msgid "Image display"
+msgstr "影像顯示"
+
+#: src/cnmsstrings.h:52
+msgid "OCR"
+msgstr "OCR"
+
+#. STRSUB_S_OUTPUT_SIZE,STRSUB_A_PAPER_SIZE,STRSUB_A_OUTPUT_SIZE
+#: src/cnmsstrings.h:55
+msgid "Flexible"
+msgstr "彈性尺寸"
+
+#: src/cnmsstrings.h:56
+msgid "Card"
+msgstr "Card"
+
+#: src/cnmsstrings.h:57
+msgid "L Landscape"
+msgstr "L 橫向"
+
+#: src/cnmsstrings.h:58
+msgid "L Portrait"
+msgstr "L 縱向"
+
+#: src/cnmsstrings.h:59
+msgid "2L Landscape"
+msgstr "2L 橫向"
+
+#: src/cnmsstrings.h:60
+msgid "2L Portrait"
+msgstr "2L 縱向"
+
+#: src/cnmsstrings.h:61
+msgid "4\" x 6\" Landscape"
+msgstr "4\" x 6\" 橫向"
+
+#: src/cnmsstrings.h:62
+msgid "4\" x 6\" Portrait"
+msgstr "4\" x 6\" 縱向"
+
+#: src/cnmsstrings.h:63
+msgid "Hagaki"
+msgstr "Hagaki"
+
+#: src/cnmsstrings.h:64
+msgid "A5"
+msgstr "A5"
+
+#: src/cnmsstrings.h:65
+msgid "B5"
+msgstr "B5"
+
+#: src/cnmsstrings.h:66
+msgid "A4"
+msgstr "A4"
+
+#: src/cnmsstrings.h:67
+msgid "Letter"
+msgstr "Letter"
+
+#: src/cnmsstrings.h:68
+msgid "Legal"
+msgstr "Legal"
+
+#: src/cnmsstrings.h:69
+msgid "B4"
+msgstr "B4"
+
+#: src/cnmsstrings.h:70
+msgid "A3"
+msgstr "A3"
+
+#: src/cnmsstrings.h:71
+msgid "128 x 128 pixels"
+msgstr "128 x 128 像素"
+
+#: src/cnmsstrings.h:72
+msgid "640 x 480 pixels"
+msgstr "640 x 480 像素"
+
+#: src/cnmsstrings.h:73
+msgid "800 x 600 pixels"
+msgstr "800 x 600 像素"
+
+#: src/cnmsstrings.h:74
+msgid "1024 x 768 pixels"
+msgstr "1024 x 768 像素"
+
+#: src/cnmsstrings.h:75
+msgid "1280 x 1024 pixels"
+msgstr "1280 x 1024 像素"
+
+#: src/cnmsstrings.h:76
+msgid "1600 x 1200 pixels"
+msgstr "1600 x 1200 像素"
+
+#: src/cnmsstrings.h:77
+msgid "2048 x 1536 pixels"
+msgstr "2048 x 1536 像素"
+
+#: src/cnmsstrings.h:78
+msgid "2272 x 1704 pixels"
+msgstr "2272 x 1704 像素"
+
+#: src/cnmsstrings.h:79
+msgid "2592 x 1944 pixels"
+msgstr "2592 x 1944 像素"
+
+#. only STRSUB_A_PAPER_SIZE
+#: src/cnmsstrings.h:81
+msgid "Full Platen"
+msgstr "滿版原稿平台"
+
+#. STRSUB_A_SOURCE
+#: src/cnmsstrings.h:84
+msgid "Platen"
+msgstr "原稿平台"
+
+#: src/cnmsstrings.h:85
+msgid "Document (ADF Simplex)"
+msgstr "文件 (自動送稿機單面)"
+
+#: src/cnmsstrings.h:86
+msgid "Document (ADF Duplex)"
+msgstr "文件 (自動送稿機雙面)"
+
+#. STRSUB_A_BINDING_LOCATION
+#: src/cnmsstrings.h:89
+msgid "Long Edge"
+msgstr "長邊"
+
+#: src/cnmsstrings.h:90
+msgid "Short Edge"
+msgstr "短邊"
+
+#. STRSUB_A_COLOR_MODE
+#: src/cnmsstrings.h:93
+msgid "Color"
+msgstr "彩色"
+
+#: src/cnmsstrings.h:94
+msgid "Color(Documents)"
+msgstr "彩色(文件)"
+
+#. add space
+#: src/cnmsstrings.h:96
+msgid "Grayscale "
+msgstr "灰階"
+
+#: src/cnmsstrings.h:97
+msgid "Black and White"
+msgstr "黑白"
+
+#. STRSUB_A_UNIT
+#: src/cnmsstrings.h:100
+msgid "pixels"
+msgstr "像素"
+
+#: src/cnmsstrings.h:101
+msgid "inches"
+msgstr "in"
+
+#: src/cnmsstrings.h:102
+msgid "centimeters"
+msgstr "cm"
+
+#: src/cnmsstrings.h:103
+msgid "mm"
+msgstr "mm"
+
+#. ON,OFF
+#: src/cnmsstrings.h:106
+msgid "ON"
+msgstr "開啟"
+
+#: src/cnmsstrings.h:107
+msgid "OFF"
+msgstr "關閉"
+
+#. coloradjuststr.h
+#. Channel list strings
+#: src/cnmsstrings.h:111
+msgid "Master"
+msgstr "主色"
+
+#: src/cnmsstrings.h:112
+msgid "Red"
+msgstr "橘紅色"
+
+#: src/cnmsstrings.h:113
+msgid "Green"
+msgstr "綠色"
+
+#: src/cnmsstrings.h:114
+msgid "Blue"
+msgstr "天藍色"
+
+#: src/cnmsstrings.h:115
+msgid "Grayscale"
+msgstr "灰階"
+
+#. save_dialog.c
+#: src/cnmsstrings.h:124
+msgid "The file name is not specified."
+msgstr "未指定檔案名稱。"
+
+#: src/cnmsstrings.h:125
+msgid ""
+"You do not have permission to access the specified file.\n"
+"Specify another file name or save the file in another directory."
+msgstr ""
+"您沒有權限存取指定的檔案。\n"
+"請指定其他的檔案名稱或者儲存此檔案至其他目錄。"
+
+#: src/cnmsstrings.h:126
+msgid ""
+"The specified directory does not exist or you do not have permission to "
+"access the directory.\n"
+"Save the file in another directory."
+msgstr ""
+"指定的目錄不存在或者您沒有權限訪問此目錄。\n"
+"請儲存此檔案至其他目錄。"
+
+#: src/cnmsstrings.h:127
+msgid ""
+"The specified file name is invalid.\n"
+"Specify another file name."
+msgstr ""
+"指定的檔案名稱無效。\n"
+"請指定其他的檔案名稱。"
+
+#. child_dialog.c
+#: src/cnmsstrings.h:130
+msgid "Do not display this message again."
+msgstr "不再顯示該訊息。"
+
+#: src/cnmsstrings.h:132
+msgid "Resets the settings to default."
+msgstr "將設定重設為預設。"
+
+#: src/cnmsstrings.h:133
+msgid ""
+"You are trying to scan an image exceeding 100 MB. \n"
+"Scanning images of this size puts a considerable load on the computer, \n"
+"and some applications may be unable to load the image. \n"
+"Are you sure you want to continue?"
+msgstr ""
+"您正在嘗試掃描超過 100 MB 的影像。掃描此大小的影像將佔用電腦相當大的負載\n"
+"，一些應用程式可能無法載入該影像。 \n"
+"您確定要繼續嗎？"
+
+#: src/cnmsstrings.h:134
+#, c-format
+msgid ""
+"Scanning cannot be performed unless the crop size, \n"
+"output size or output resolution is reduced to \n"
+"%s x %s pixels or less."
+msgstr ""
+"除非裁切大小、\n"
+"輸出大小或輸出解析度縮小至 \n"
+"%s x %s 像素或更小，否則無法執行掃描。"
+
+#: src/cnmsstrings.h:135
+msgid "If you keep Unsharp Mask ON, Descreen may not work."
+msgstr "如果 [模糊遮罩] 為開啟狀態，則 [去除網紋] 可能無法作用。"
+
+#: src/cnmsstrings.h:136
+msgid ""
+"The ADF (Auto Document Feeder) is empty. \n"
+"Place paper in the ADF."
+msgstr ""
+"ADF(自動送稿機)空著。\n"
+"請放入紙張。"
+
+#: src/cnmsstrings.h:137
+msgid ""
+"Cannot find available scanners.\n"
+"\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check the scanner status, and then try again."
+msgstr ""
+"無法找到可用的掃描器。\n"
+"\n"
+"纜線可能已中斷，或者掃描器可能已關閉。\n"
+"請檢查掃描器狀態，然後重試。"
+
+#: src/cnmsstrings.h:138
+msgid ""
+"You are trying to scan a large image.\n"
+"Reduce image size or output resolution,\n"
+"when you want to scan this image."
+msgstr ""
+"您正在嘗試掃描大影像。\n"
+"當您想要掃描該影像時，\n"
+"縮小影像大小或輸出解析度。"
+
+#: src/cnmsstrings.h:142
+msgid "Saving..."
+msgstr "正在儲存..."
+
+#: src/cnmsstrings.h:143
+msgid "Transferring..."
+msgstr "正在傳送..."
+
+#: src/cnmsstrings.h:144
+#, c-format
+msgid "%d page(s)"
+msgstr "%d 頁"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:146
+msgid "Searching..."
+msgstr "搜尋中..."
+
+#: src/cnmsstrings.h:147
+msgid "Searching for scanners."
+msgstr "正在搜尋掃描器。"
+
+#: src/cnmsstrings.h:148
+msgid "Updating the scanner list."
+msgstr "正在更新掃描器清單。"
+
+#. scanmsg.h
+#: src/cnmsstrings.h:152
+msgid "Scanning canceled by user."
+msgstr "使用者取消掃描。"
+
+#: src/cnmsstrings.h:153
+msgid "Copying...  Scan after it is complete."
+msgstr "正在複印...  請在複印完成後掃描。"
+
+#: src/cnmsstrings.h:154
+msgid "Printing...  Scan after it is complete."
+msgstr "正在列印...  請在列印完成後掃描。"
+
+#: src/cnmsstrings.h:155
+msgid "Printer maintenance is in progress. Scan after it is complete."
+msgstr "正在維護印表機。請在維護完成後掃描。"
+
+#: src/cnmsstrings.h:156
+msgid ""
+"Cannot communicate with scanner.\n"
+"Cable may be disconnected or scanner may be turned off.\n"
+"Check status.\n"
+"Scanner driver will be closed."
+msgstr ""
+"無法與掃描器通訊。\n"
+"纜線可能已中斷，或者掃描器可能已關閉。\n"
+"請檢查狀態。\n"
+"掃描器驅動程式即將關閉。"
+
+#: src/cnmsstrings.h:157
+msgid ""
+"There is not enough free disk space to complete the scan.\n"
+"Scanner driver will be closed."
+msgstr ""
+"沒有足夠的磁碟空間可以完成掃描。\n"
+"掃描器驅動程式即將關閉。"
+
+#: src/cnmsstrings.h:158
+msgid ""
+"Internal Error occurred.\n"
+"Scanner driver will be closed."
+msgstr ""
+"發生 [內部錯誤]。\n"
+"掃描器驅動程式即將關閉。"
+
+#. Ver.1.40 modified
+#: src/cnmsstrings.h:160
+msgid ""
+"Error in scanner.\n"
+"Turn off scanner and follow instructions in User's Guide.\n"
+"Scanner driver will be closed."
+msgstr ""
+"掃描器發生錯誤。\n"
+"請關閉掃描器且依照手冊中的使用說明操作。\n"
+"掃描器驅動程式將被關閉。"
+
+#. Ver.1.20
+#: src/cnmsstrings.h:162
+msgid ""
+"Printer is in use or an error has occurred. Check status.\n"
+"Scanner Driver will be closed."
+msgstr ""
+"印表機正在使用中或者發生錯誤。請檢查狀態。\n"
+"掃描器驅動程式將被關閉。"
+
+#: src/cnmsstrings.h:163
+msgid "Printer initialization is in progress. Scan after it is complete."
+msgstr "正在初始化印表機。請在初始化完成後掃描。"
+
+#: src/cnmsstrings.h:164
+msgid ""
+"An error has occurred.\n"
+"Turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"發生錯誤。\n"
+"關閉設備後重新開啟。\n"
+"掃描器驅動程式將被關閉。"
+
+#. Ver.1.30
+#: src/cnmsstrings.h:166
+msgid ""
+"Scanning canceled by user. \n"
+"Press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF (Auto Document Feeder)."
+msgstr ""
+"使用者取消掃描。\n"
+"按下印表機操作面板上的 <OK> 按鈕，以從ADF(自動送稿機)中退出文件。"
+
+#: src/cnmsstrings.h:167
+msgid ""
+"The paper is jammed in the ADF (Auto Document Feeder). \n"
+"Open the cover and clear the paper jam, then close the document cover.\n"
+"Press the <OK> button to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(自動送稿機)發生夾紙。\n"
+"請開啟蓋板，移除夾紙，然後關閉文件蓋板。\n"
+"按印表機操作面板的 <OK> 按鈕清除狀態。"
+
+#: src/cnmsstrings.h:168
+msgid ""
+"The ADF (Auto Document Feeder) cover is open. \n"
+"Close the document cover and press the <OK> button \n"
+"to clear the status on the printer's operation panel."
+msgstr ""
+"ADF(自動送稿機)蓋板打開。\n"
+"請關閉文件蓋板並按印表機操作面板的 <OK> 按鈕清除狀態。"
+
+#: src/cnmsstrings.h:169
+msgid ""
+"No document in the ADF (Auto Document Feeder). \n"
+"Press the <OK> button on the printer's operation panel to cancel the "
+"error, \n"
+"then place paper in the ADF."
+msgstr ""
+"ADF(自動送稿機)中無文件。\n"
+"按印表機操作面板上的 <OK> 按鈕以取消錯誤，\n"
+"然後將紙張放入自動送稿機。"
+
+#: src/cnmsstrings.h:170
+msgid ""
+"Document is too long.\n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"文件過長。\n"
+"確認ADF(自動送稿機)蓋板是關閉的，\n"
+"按下印表機操作面板上的 <OK> 按鈕，以從自動送稿機中退出文件。"
+
+#: src/cnmsstrings.h:171
+msgid ""
+"The paper size is not suitable for the duplex scanning. \n"
+"Check that the ADF (Auto Document Feeder) cover is closed, \n"
+"and press the <OK> button on the printer's operation panel \n"
+"to eject the document from the ADF."
+msgstr ""
+"紙張大小不適合雙面掃描。\n"
+"確認ADF(自動送稿機)蓋板是關閉的，\n"
+"按下印表機操作面板上的 <OK> 按鈕，以從自動送稿機中退出文件。"
+
+#. Ver.1.40
+#: src/cnmsstrings.h:173
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"無法與掃描器通訊的原因如下:\n"
+"- 掃描器被關閉。\n"
+"- 掃描器連接被中斷。\n"
+"(如果是在 LAN 上使用，到 LAN 的連接被中斷。)\n"
+"\n"
+"請檢查並重試。\n"
+"掃描器驅動程式將被關閉。"
+
+#. Ver.1.60
+#: src/cnmsstrings.h:175
+msgid ""
+"Cannot communicate with scanner for these reasons:\n"
+"- Scanner is turned off.\n"
+"- The lock switch is not released.\n"
+"- Scanner is disconnected.\n"
+"(It is disconnected from LAN, if using on LAN.)\n"
+"\n"
+"Please check and try again.\n"
+"Scanner driver will be closed."
+msgstr ""
+"無法與掃描器通訊的原因如下:\n"
+"- 掃描器被關閉。\n"
+"- 未釋放鎖定開關。\n"
+"- 掃描器連接被中斷。\n"
+"(如果是在 LAN 上使用，到 LAN 的連接被中斷。)\n"
+"\n"
+"請檢查並重試。\n"
+"掃描器驅動程式將被關閉。"
+
+#: src/cnmsstrings.h:176
+msgid ""
+"Release the lock switch, turn the device off and then back on.\n"
+"Scanner driver will be closed."
+msgstr ""
+"釋放鎖定開關，關閉設備後重新開啟。\n"
+"掃描器驅動程式即將關閉。"
+
+#. scanflow.c
+#: src/cnmsstrings.h:179
+msgid ""
+"Processing calibration data from a scanner.\n"
+"Do not open the document cover."
+msgstr ""
+"從掃描器進行校準資料。\n"
+"請勿開啟文件蓋。"
+
+#: src/cnmsstrings.h:180
+msgid ""
+"Scanner is warming up...\n"
+"Do not open the document cover."
+msgstr ""
+"掃描器暖機中...\n"
+"請勿開啟文件蓋。"
+
+#. w1_main.c
+#: src/cnmsstrings.h:183
+msgid "Delete preview images."
+msgstr "刪除預覽影像。"
+
+#: src/cnmsstrings.h:184
+msgid "Select Source is altered, so deletes preview image."
+msgstr "已更改選擇來源，所以刪除預覽影像。"

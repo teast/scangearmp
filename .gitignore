@@ -50,6 +50,18 @@ m4/ltsugar.m4
 m4/ltversion.m4
 m4/lt~obsolete.m4
 
+# Custom files for scangearmp
+config.h
+libtool
+ltmain.sh
+Makefile.in.in
+autogen.output
+scangearmp/po/*.gmo
+scangearmp/po/POTFILES
+
+# binaries generated when compiling
+scangearmp
+
 # Generated Makefile
 # (meta build system like autotools,
 # can automatically generate from config.status script

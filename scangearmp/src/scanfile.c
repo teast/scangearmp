@@ -386,7 +386,7 @@ EXIT:
 
 void write_data_for_png( png_structp png_ptr, png_bytep data, png_size_t length )
 {
-	FileControlWriteFile( *( (int *)png_ptr->io_ptr ), (CNMSLPSTR)data, length );
+	FileControlWriteFile( png_get_io_ptr(png_ptr) , (CNMSLPSTR)data, length );
 
 	return;
 }
@@ -460,7 +460,7 @@ static CNMSInt32 Change_RAW_to_PNG(
 	}
 	
 	png_set_write_fn( write_ptr, (png_voidp)&dstFd, write_data_for_png, NULL );
-	png_set_compression_level( write_ptr, Z_BEST_SPEED );	/* maximum speed */
+	png_set_compression_level( write_ptr, 1 );	/* maximum speed */
 	switch( bpp )
 	{
 		case  1:

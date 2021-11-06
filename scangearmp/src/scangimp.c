@@ -43,7 +43,6 @@
 //#include <string.h>
 //#include <gtk/gtk.h>
 #include <libgimp/gimp.h>
-#include <libgimp/gimpcompat.h>
 #include <dlfcn.h>
 
 #include "cnmstype.h"
